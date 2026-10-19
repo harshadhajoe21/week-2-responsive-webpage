@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A responsive webpage created for the Week 2 frontend assessment.">
+  <title>Responsive Webpage | Week 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="logo" href="#home">BrightSpace</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">WEEK 2 • FRONTEND DEVELOPMENT</p>
+          <h1>A website that works on every screen.</h1>
+          <p class="hero-description">A clean, responsive layout that adapts to desktops, tablets, and smartphones using HTML and CSS.</p>
+          <a class="button" href="#features">Explore Features</a>
+        </div>
+        <div class="device-art" aria-label="Illustration of a website on desktop and mobile screens" role="img">
+          <div class="desktop">
+            <div class="dots"><i></i><i></i><i></i></div>
+            <div class="mock-title"></div><div class="mock-line"></div><div class="mock-line short"></div>
+            <div class="mock-cards"><span></span><span></span><span></span></div>
+          </div>
+          <div class="phone">
+            <div class="speaker"></div><div class="phone-title"></div>
+            <div class="phone-line"></div><div class="phone-line short"></div><div class="phone-card"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT MAKES IT RESPONSIVE?</p>
+          <h2>Designed for every device</h2>
+          <p>The layout changes naturally to keep content clear and easy to use.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">▣</div>
+            <h3>Flexible Layout</h3>
+            <p>CSS Grid and Flexbox arrange content based on the available screen space.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">↔</div>
+            <h3>Media Queries</h3>
+            <p>Breakpoints adjust columns, spacing, and text sizes for smaller screens.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">▧</div>
+            <h3>Fluid Content</h3>
+            <p>Flexible containers help prevent content from overflowing the screen.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="container about-content">
+        <div><p class="eyebrow">ABOUT THIS PROJECT</p><h2>One page, multiple screen sizes.</h2></div>
+        <p>This sample demonstrates responsive web design using semantic HTML5 and CSS3. On a desktop, the feature cards appear in multiple columns. On smaller screens, they stack vertically for comfortable reading.</p>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-content">
+        <h2>Thanks for visiting!</h2>
+        <p>This webpage was created for the Week 2 responsive design assessment.</p>
+        <a class="button button-light" href="#home">Back to Top</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 BrightSpace</p>
+      <p>Week 2 Frontend Web Developer Internship Project</p>
+    </div>
+  </footer>
+</body>
+</html>
